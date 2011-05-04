@@ -1,0 +1,265 @@
+// defining all of the symbols
+#define A {B01110000,B10001000,B10001000,B11111000,B10001000,B10001000}
+#define B {B11110000,B10001000,B10001000,B11110000,B10001000,B11111000}
+#define C {B11111000,B10000000,B10000000,B10000000,B10000000,B11111000}
+#define D {B11110000,B10001000,B10001000,B10001000,B10001000,B11110000}
+#define E {B11111000,B10000000,B10000000,B11110000,B10000000,B11111000}
+#define F {B11111000,B10000000,B10000000,B11110000,B10000000,B10000000}
+#define G {B01110000,B10001000,B10000000,B10011000,B10001000,B01110000}
+#define H {B10001000,B10001000,B11111000,B10001000,B10001000,B10001000}
+#define I {B11111000,B00100000,B00100000,B00100000,B00100000,B11111000}
+#define J {B00111000,B00010000,B00010000,B00010000,B10010000,B01100000}
+#define M {B10001000,B11011000,B10101000,B10101000,B10001000,B10001000}
+#define N {B10001000,B11001000,B10101000,B10101000,B10011000,B10001000}
+#define L {B10000000,B10000000,B10000000,B10000000,B10000000,B11111000}
+#define O {B01110000,B10001000,B10001000,B10001000,B10001000,B01110000}
+#define P {B11110000,B10001000,B10001000,B11110000,B10000000,B10000000}
+#define Q {B01110000,B10001000,B10101000,B10011000,B01111000,B00001000}
+#define R {B11110000,B10001000,B10001000,B11110000,B10001000,B10001000}
+#define S {B01110000,B10001000,B01100000,B00010000,B10001000,B01110000}
+#define K {B10001000,B10010000,B11100000,B11100000,B10010000,B10001000}
+#define T {B11111000,B00100000,B00100000,B00100000,B00100000,B00100000}
+#define U {B10001000,B10001000,B10001000,B10001000,B10001000,B01110000}
+#define V {B10001000,B10001000,B10001000,B10001000,B01010000,B00100000}
+#define W {B10001000,B10001000,B10101000,B10101000,B10101000,B01010000}
+#define X {B10001000,B01010000,B00100000,B00100000,B01010000,B10001000}
+#define Y {B10001000,B01010000,B00100000,B00100000,B00100000,B00100000}
+#define Z {B11111000,B00001000,B00110000,B01100000,B10000000,B11111000}
+#define LA{B00000000,B01110000,B00001000,B01111000,B10001000,B01111000}
+#define LB{B10000000,B10000000,B10110000,B11001000,B10001000,B11110000}
+#define LC{B00000000,B01110000,B10000000,B10000000,B10001000,B01110000}
+#define LD{B00001000,B00001000,B01111000,B10001000,B10001000,B01111000}
+#define LE{B00000000,B01110000,B10001000,B11111000,B10000000,B01110000}
+#define LF{B00110000,B01001000,B01000000,B11100000,B01000000,B01000000}
+#define LG{B00000000,B01111000,B10001000,B01111000,B00001000,B01110000}
+#define LH{B10000000,B10000000,B10110000,B11001000,B10001000,B10001000}
+#define LI{B00100000,B00000000,B01100000,B00100000,B00100000,B01111000}
+#define LJ{B00010000,B00000000,B00111000,B00010000,B10010000,B01100000}
+#define LK{B10000000,B10010000,B10100000,B11000000,B10100000,B10010000}
+#define LL{B01100000,B00100000,B00100000,B00100000,B00100000,B01111000}
+#define LM{B00000000,B00000000,B11010000,B10101000,B10101000,B10001000}
+#define LN{B00000000,B00000000,B10110000,B11001000,B10001000,B10001000}
+#define LO{B00000000,B01110000,B10001000,B10001000,B10001000,B01110000}
+#define LP{B00000000,B11110000,B10001000,B11110000,B10000000,B10000000}
+#define LQ{B00000000,B01101000,B10011000,B01111000,B00001000,B00001000}
+#define LR{B00000000,B00000000,B10110000,B11001000,B10000000,B10000000}
+#define LS{B00000000,B01110000,B10000000,B01110000,B00001000,B11110000}
+#define LT{B01000000,B01000000,B11100000,B01000000,B01001000,B00110000}
+#define LU{B00000000,B00000000,B10001000,B10001000,B10011000,B01101000}
+#define LV{B00000000,B00000000,B10001000,B10001000,B01010000,B00100000}
+#define LW{B00000000,B00000000,B10001000,B10101000,B10101000,B01010000}
+#define LX{B00000000,B10001000,B01010000,B00100000,B01010000,B10001000}
+#define LY{B00000000,B10001000,B10001000,B01111000,B00001000,B01110000}
+#define LZ{B00000000,B11111000,B00010000,B00100000,B01000000,B11111000}
+#define SPACE{B00000000,B00000000,B00000000,B00000000,B00000000,B00000000}
+#define NUM0{B01110000,B10011000,B10101000,B10101000,B11001000,B01110000}
+#define NUM1{B00100000,B01100000,B10100000,B00100000,B00100000,B01110000}
+#define NUM2{B01110000,B10001000,B00001000,B01110000,B10000000,B11111000}
+#define NUM3{B11110000,B00001000,B00001000,B01111000,B00001000,B11110000}
+#define NUM4{B10001000,B10001000,B10001000,B11111000,B00001000,B00001000}
+#define NUM5{B11111000,B10000000,B11110000,B00001000,B10001000,B01110000}
+#define NUM6{B11111000,B10000000,B11111000,B10001000,B10001000,B11111000}
+#define NUM7{B11111000,B00001000,B00001000,B01111000,B00001000,B00001000}
+#define NUM8{B11111000,B10001000,B11111000,B10001000,B10001000,B11111000}
+#define NUM9{B11111000,B10001000,B11111000,B00001000,B00001000,B11111000}
+#define DEVIDE{B00001000,B00010000,B00100000,B00100000,B01000000,B10000000}
+#define TWODOTS{B01100000,B01100000,B00000000,B00000000,B01100000,B01100000}
+#define DOT{B00000000,B00000000,B00000000,B00000000,B01100000,B01100000}
+#define COMA{B00000000,B00000000,B00000000,B00110000,B00110000,B01100000}
+#define LINE{B00000000,B00000000,B11111000,B11111000,B00000000,B00000000}
+#define QUASTION{B01110000,B10001000,B00010000,B00100000,B00000000,B00100000}
+#define MARK{B00100000,B01110000,B01110000,B00100000,B00000000,B00100000}
+
+int latchPin = 10; //latch pin of the shift register
+int clockPin = 13; //clock pin of the shift register
+int dataPin = 11; //data pin of the shift register
+int clock = 9; //clock pin of the 4017 counter
+int Reset = 8; //reset pin of the 4017 counter
+
+// setting the pins for easy operation with PORTB
+int latchPinPORTB = latchPin - 8;
+int i = 0;
+int incomingByte[44];// the incoming words go here
+byte scrolling_word[6][3];// this is for the scrolling text
+int array_turn=0;
+byte patterns[100][6];
+byte dummy_array[70][6] ={A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,SPACE,NUM0,NUM1,NUM2,NUM3,NUM4,NUM5,NUM6,NUM7,NUM8,NUM9,DEVIDE,TWODOTS,DOT,COMA,LINE,QUASTION,MARK,LA,LB,LC,LD,LE,LF,LG,LH,LI,LJ,LK,LL,LM,LN,LO,LP,LQ,LR,LS,LT,LU,LV,LW,LX,LY,LZ};
+
+void setup(){
+  Serial.begin(9600);//starting communicatino with the PC at 9600 boud
+  // config for all the pins
+  pinMode(dataPin,OUTPUT);
+  pinMode(clockPin,OUTPUT);
+  pinMode(latchPin,OUTPUT);
+  pinMode(clock,OUTPUT);
+  pinMode(Reset,OUTPUT);
+  //reseting the 4017 counter
+  digitalWrite(Reset,HIGH);
+  digitalWrite(Reset,LOW);
+}
+
+//**************Static Text*********************//
+void display_static_word(int time_delay,byte static_print[][6]){ // the main funcion for displaying static
+  for(int first1=0;first1<6;first1++){ // reseting the scrolling_word array
+    for(int second1=0;second1<5;second1++)
+     scrolling_word[first1][second1] = 0x00;
+  }   
+  
+  for(int x1=0;x1<4;x1++){//main loop that goes over all of the symbols
+   for(int scroll1=0;scroll1<6;scroll1++){// loop for scrolling, each symbols scrolls for 6 columns
+   for(int r1=0;r1<6;r1++){//going over all of the rows
+      // this is the scrolling function it's like making a 3 byte word to scroll al once.
+      scrolling_word[r1][2] = (scrolling_word[r1][2] << 1)+((scrolling_word[r1][1] & 0x80) >> 7); 
+      scrolling_word[r1][1] = (scrolling_word[r1][1] << 1)+((scrolling_word[r1][0] & 0x80) >> 7); 
+      scrolling_word[r1][0] = (scrolling_word[r1][0] << 1)+(((static_print[x1][r1]<<scroll1)&0x80)>>7);
+   }
+   }
+   }
+      for(int t1=0;t1< time_delay;t1++){// a delay loop that just shows the same frame over and over to create a delay
+        digitalWrite(Reset,HIGH);
+        digitalWrite(Reset,LOW);
+        for(int y1=0;y1<6;y1++){// the scaning loop that goes over all 6 rows
+          latchOff();// starint the communication with the shift registers
+          shiftOut(dataPin, clockPin,MSBFIRST,scrolling_word[y1][2]);
+          shiftOut(dataPin, clockPin,MSBFIRST,scrolling_word[y1][1]);
+          shiftOut(dataPin, clockPin,MSBFIRST,scrolling_word[y1][0]);
+          latchOn();
+          delayMicroseconds(800);//a small delay for each row
+          latchOff();// clearing the shift registers to make sure we will not get a ghosting effect
+          shiftOut(dataPin, clockPin,MSBFIRST,0);
+          shiftOut(dataPin, clockPin,MSBFIRST,0);
+          shiftOut(dataPin, clockPin,MSBFIRST,0);
+          latchOn();
+          // advensing the 4017 counter by one( we just send a positive pulse)
+          digitalWrite(clock,HIGH);
+          digitalWrite(clock,LOW);
+        }
+      }
+     }
+ 
+  void loop() {
+
+	// send data only when you receive data:
+	if(Serial.available() > 0){
+               for(int mnm=0;mnm<5;mnm++){
+                 for(int mnm1=0;mnm1<6;mnm1++)
+                  patterns[mnm][mnm1] = 0;
+               }
+		delay(100);
+		incomingByte[array_turn] = Serial.read();// putting the symbol in the array
+                array_turn++;//counting the number of incomming symbols
+	}
+           else{
+             //this part is for getting the info we got and putting it in a form we could work with
+             if(array_turn != 0){ 
+               for(int az=0;az<array_turn;az++){//for latters
+                 if((incomingByte[az] > 64 && incomingByte[az] < 91) || (incomingByte[az] > 96 && incomingByte[az] < 123)){
+                  if(incomingByte[az] > 64 && incomingByte[az] < 91){
+                   for(int lal=0;lal<6;lal++)                 
+                 patterns[az][lal] = dummy_array[incomingByte[az] - 65][lal];
+               }
+               else{//for numbers
+                 for(int lal=0;lal<6;lal++)                 
+                 patterns[az][lal] = dummy_array[incomingByte[az] - 53][lal];
+               }}
+               else{// for odd symbols
+                 switch(incomingByte[az]){
+                case 32://space
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[26][lol];
+                 break;
+                case 33://mark
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[43][lol];
+                 break;
+                case 45://line
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[41][lol];
+                 break;                 
+                 case 44://coma
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[40][lol];
+                 break;
+                 case 46://dot
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[39][lol];
+                 break;
+                 case 47://dvide
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[37][lol];
+                 break;
+                 case 48://0
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[27][lol];
+                 break;
+                 case 49://1
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[28][lol];
+                 break;
+                 case 50://2
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[29][lol];
+                 break;
+                 case 51://3
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[30][lol];
+                 break;
+                 case 52://4
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[31][lol];
+                 break;
+                 case 53://5
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[32][lol];
+                 break;
+                 case 54://6
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[33][lol];
+                 break;
+                 case 55://7
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[34][lol];
+                 break;
+                 case 56://8
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[35][lol];
+                 break;
+                 case 57://9
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[36][lol];
+                 break;
+                 case 58://tow dots
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[38][lol];
+                 break;
+                 case 63://quastion
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[42][lol];
+                 break;
+                 default:
+                 for(int lol=0;lol<6;lol++)                 
+                 patterns[az][lol] = dummy_array[26][lol];
+                 break; 
+                 }
+               }               
+             }
+           }
+            //if(array_turn != 0)
+            // {
+              display_static_word(50,patterns);
+              array_turn =0; 
+            // }
+       
+         } 
+       }
+  
+  //display_word(1,patterns,43,15);// calls for the display_pattern function and says that int loop = 15(if you do more loop the pattern whould scrrol slower).
+
+void latchOn(){
+  bitSet(PORTB,latchPinPORTB);
+}
+
+void latchOff(){
+  bitClear(PORTB,latchPinPORTB);
+}
+
